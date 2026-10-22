@@ -1,0 +1,38 @@
+[
+ {
+  "id_termo_adesao": 1,
+  "numero_processo_termo_adesao": "08020.008225/2019-04",
+  "situacao_termo_adesao": "ASSINADO",
+  "objeto_termo_adesao": "Cooperação dos partícipes na realização das ações de financiamento referentes ao Eixo Valorização do Profissional de Segurança Pública, conforme previsto na  Portaria n.º 790, de 24 de outubro de 2019, do Ministério da Justiça e Segurança Pública.",
+  "data_assinatura_termo_adesao": "2019-12-26",
+  "ano_termo_adesao": 2021,
+  "secao_publicacao_dou_termo_adesao": 3,
+  "pagina_publicacao_dou_termo_adesao": 157,
+  "data_publicacao_dou_termo_adesao": "2019-12-30",
+  "id_plano_acao": 1
+ },
+ {
+  "id_termo_adesao": 2,
+  "numero_processo_termo_adesao": "72031.008428/2020-04",
+  "situacao_termo_adesao": "ASSINADO",
+  "objeto_termo_adesao": "Para repasse dos recursos previstos na Lei 14.017/2020 (Lei Aldir Blanc).",
+  "data_assinatura_termo_adesao": "2020-08-18",
+  "ano_termo_adesao": 2020,
+  "secao_publicacao_dou_termo_adesao": 1,
+  "pagina_publicacao_dou_termo_adesao": 5,
+  "data_publicacao_dou_termo_adesao": "2020-08-18",
+  "id_plano_acao": 250
+ },
+ {
+  "id_termo_adesao": 3,
+  "numero_processo_termo_adesao": "72031.008428/2020-04",
+  "situacao_termo_adesao": "EM_ELABORACAO",
+  "objeto_termo_adesao": "Repasse Lei 14.017/2020.",
+  "data_assinatura_termo_adesao": "2020-08-18",
+  "ano_termo_adesao": 2020,
+  "secao_publicacao_dou_termo_adesao": 1,
+  "pagina_publicacao_dou_termo_adesao": 5,
+  "data_publicacao_dou_termo_adesao": "2020-08-18",
+  "id_plano_acao": 852
+ }
+]

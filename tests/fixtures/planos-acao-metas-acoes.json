@@ -1,0 +1,32 @@
+[
+ {
+  "id_acao_meta_plano_acao": 1,
+  "numero_acao_meta_plano_acao": "A1.1",
+  "nome_acao_meta_plano_acao": "Alcançar 30% do efetivo da Secretaria de Estado de Segurança Pública do Distrito Federal, por meio de capacitações",
+  "descricao_acao_meta_plano_acao": "Alcançar 30% (trinta por cento) do efetivo da Secretaria de Estado de Segurança Pública do Distrito Federal, por meio de capacitações em temáticas relacionadas à valorização profissional, realizadas até dezembro de 2020.",
+  "valor_acao_meta_plano_acao": 1516984.0,
+  "versao_acao_meta_plano_acao": 5,
+  "sequencial_acao_meta_plano_acao": 1,
+  "id_meta_plano_acao": 2
+ },
+ {
+  "id_acao_meta_plano_acao": 3,
+  "numero_acao_meta_plano_acao": "A1.1",
+  "nome_acao_meta_plano_acao": "Modernização e aparelhamento de estabelecimentos penais",
+  "descricao_acao_meta_plano_acao": "Modernização e aparelhamento de estabelecimentos penais",
+  "valor_acao_meta_plano_acao": 2235340.16,
+  "versao_acao_meta_plano_acao": 2,
+  "sequencial_acao_meta_plano_acao": 1,
+  "id_meta_plano_acao": 4
+ },
+ {
+  "id_acao_meta_plano_acao": 4,
+  "numero_acao_meta_plano_acao": "A1.1",
+  "nome_acao_meta_plano_acao": "Modernização e aparelhamento de estabelecimentos penais",
+  "descricao_acao_meta_plano_acao": "- item 1: APARELHAMENTO DA SEACOP (SEÇÃO DE ACOMPANHAMENTO E CONTROLE OPERACIONAL)Aquisição de móveis, ar condicionado, televisão para adequação física da Seção de Acompanhamento e Controle Operacional: Mesas, Gaveteiros móveis, Cadeiras,  Armários, Longarinas, Ar Condicionado, Televisor, estimados em R$ 62.130,00.Aquisição de equipamentos para a Seção de Acompanhamento e Controle Operacional: Notebooks, Computadores Desktop Intel Core i7, Monitores, Estabilizadores, Switchs, DRONE 4K, Câmeras IP, NVR, Speeds Dome IP, Conectores, Porcas e parafusos, Cabos, HD WD, Fontes, estimados em R$ 337.870,00Valor total do capital: R$ 400.000,00- item 2: ARMAMENTOAquisição de 121 espingardas cal. 12 de repetição, estimadas em R$ 390.000,00Valor total do capital: R$ 390.000,00",
+  "valor_acao_meta_plano_acao": 790000.0,
+  "versao_acao_meta_plano_acao": 1,
+  "sequencial_acao_meta_plano_acao": 1,
+  "id_meta_plano_acao": 8
+ }
+]

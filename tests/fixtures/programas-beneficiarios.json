@@ -1,0 +1,47 @@
+[
+ {
+  "id_beneficiario_programa": 1,
+  "cnpj_beneficiario_programa": "00394718000100",
+  "nome_beneficiario_programa": "SECRETARIA DE ESTADO DE SEGURANCA PUBLICA DO DISTRITO FEDERAL",
+  "valor_beneficiario_programa": 1516984.0,
+  "numero_emenda_beneficiario_programa": null,
+  "nome_parlamentar_beneficiario_programa": null,
+  "tipo_beneficiario_programa": "ESPECIFICO",
+  "nome_ente_beneficiario_programa": "SECRETARIA DE ESTADO DE SEGURANCA PUBLICA DO DISTRITO FEDERAL",
+  "uf_ente_beneficiario_programa": "DF",
+  "nome_municipio_ente_beneficiario_programa": "BRASÍLIA",
+  "codigo_ibge_municipio_ente_beneficiario_programa": 5300108,
+  "id_ente_beneficiario_programa": 60,
+  "id_programa": 1
+ },
+ {
+  "id_beneficiario_programa": 4,
+  "cnpj_beneficiario_programa": "13937123000103",
+  "nome_beneficiario_programa": "SECRETARIA DO TRABALHO, EMPREGO, RENDA E ESPORTE",
+  "valor_beneficiario_programa": 300000.0,
+  "numero_emenda_beneficiario_programa": "202013310016",
+  "nome_parlamentar_beneficiario_programa": "NOME FICTICIO",
+  "tipo_beneficiario_programa": "EMENDA_PARLAMENTAR",
+  "nome_ente_beneficiario_programa": "SECRETARIA DO TRABALHO, EMPREGO, RENDA E ESPORTE",
+  "uf_ente_beneficiario_programa": "BA",
+  "nome_municipio_ente_beneficiario_programa": "SALVADOR",
+  "codigo_ibge_municipio_ente_beneficiario_programa": 2927408,
+  "id_ente_beneficiario_programa": 5150,
+  "id_programa": 2
+ },
+ {
+  "id_beneficiario_programa": 8,
+  "cnpj_beneficiario_programa": "84012012000126",
+  "nome_beneficiario_programa": "ESTADO DE RORAIMA",
+  "valor_beneficiario_programa": 300000.0,
+  "numero_emenda_beneficiario_programa": "202041460016",
+  "nome_parlamentar_beneficiario_programa": "NOME FICTICIO",
+  "tipo_beneficiario_programa": "EMENDA_PARLAMENTAR",
+  "nome_ente_beneficiario_programa": "ESTADO DE RORAIMA",
+  "uf_ente_beneficiario_programa": "RR",
+  "nome_municipio_ente_beneficiario_programa": "BOA VISTA",
+  "codigo_ibge_municipio_ente_beneficiario_programa": 1400100,
+  "id_ente_beneficiario_programa": 23,
+  "id_programa": 2
+ }
+]

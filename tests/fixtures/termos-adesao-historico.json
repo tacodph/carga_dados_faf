@@ -1,0 +1,20 @@
+[
+ {
+  "id_historico_termo_adesao": 1,
+  "situacao_historico_termo_adesao": "EM ELABORACAO",
+  "data_historico_termo_adesao": "2020-02-05",
+  "id_termo_adesao": 1
+ },
+ {
+  "id_historico_termo_adesao": 2,
+  "situacao_historico_termo_adesao": "EM ELABORACAO",
+  "data_historico_termo_adesao": "2020-02-05",
+  "id_termo_adesao": 1
+ },
+ {
+  "id_historico_termo_adesao": 3,
+  "situacao_historico_termo_adesao": "EM ELABORACAO",
+  "data_historico_termo_adesao": "2020-05-05",
+  "id_termo_adesao": 1
+ }
+]

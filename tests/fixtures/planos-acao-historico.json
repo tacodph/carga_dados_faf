@@ -1,0 +1,23 @@
+[
+ {
+  "id_historico_plano_acao": 1,
+  "situacao_historico_plano_acao": "EM_ELABORACAO",
+  "data_historico_plano_acao": "2020-01-20",
+  "versao_historico_plano_acao": 0,
+  "id_plano_acao": 1
+ },
+ {
+  "id_historico_plano_acao": 2,
+  "situacao_historico_plano_acao": "ENVIADO_ANALISE",
+  "data_historico_plano_acao": "2020-02-05",
+  "versao_historico_plano_acao": 0,
+  "id_plano_acao": 1
+ },
+ {
+  "id_historico_plano_acao": 3,
+  "situacao_historico_plano_acao": "ANALISE_CONCLUIDA",
+  "data_historico_plano_acao": "2020-02-05",
+  "versao_historico_plano_acao": 0,
+  "id_plano_acao": 1
+ }
+]

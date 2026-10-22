@@ -1,0 +1,32 @@
+[
+ {
+  "id_analise_plano_acao": 1,
+  "tipo_analise_plano_acao": "TECNICA",
+  "tipo_resultado_analise_plano_acao": "APROVADO",
+  "data_analise_plano_acao": "2020-02-05",
+  "parecer_analise_plano_acao": "Aprovado conforme INFORMAÇÃO Nº 488/2019/GP-DPSP/DPSP/SENASP em anexo.",
+  "tipo_origem_analise_plano_acao": "REPASSADOR",
+  "id_plano_acao": 1,
+  "id_historico_plano_acao": 2
+ },
+ {
+  "id_analise_plano_acao": 2,
+  "tipo_analise_plano_acao": "FINANCEIRA",
+  "tipo_resultado_analise_plano_acao": "APROVADO",
+  "data_analise_plano_acao": "2020-02-05",
+  "parecer_analise_plano_acao": "Pela aprovação, nos termos da Nota Técnica em anexo",
+  "tipo_origem_analise_plano_acao": "REPASSADOR",
+  "id_plano_acao": 1,
+  "id_historico_plano_acao": 2
+ },
+ {
+  "id_analise_plano_acao": 3,
+  "tipo_analise_plano_acao": "MERITO",
+  "tipo_resultado_analise_plano_acao": "APROVADO",
+  "data_analise_plano_acao": "2020-02-05",
+  "parecer_analise_plano_acao": "Pela Aprovação, nos termos da Informação em anexo.",
+  "tipo_origem_analise_plano_acao": "REPASSADOR",
+  "id_plano_acao": 1,
+  "id_historico_plano_acao": 2
+ }
+]

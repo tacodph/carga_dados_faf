@@ -1,0 +1,23 @@
+[
+ {
+  "id_acao_relatorio_gestao": 1,
+  "percentual_execucao_fisica_acao_relatorio_gestao_acao": 0.0,
+  "observacoes_justificativas_relatorio_gestao_acao": "não houver inscrições para esta categoria em nosso município, recursos dessa modalidade seguiram, para outras modalidades do inciso III.",
+  "id_relatorio_gestao": 1,
+  "id_acao_meta_plano_acao": 2937
+ },
+ {
+  "id_acao_relatorio_gestao": 2,
+  "percentual_execucao_fisica_acao_relatorio_gestao_acao": 100.0,
+  "observacoes_justificativas_relatorio_gestao_acao": null,
+  "id_relatorio_gestao": 1,
+  "id_acao_meta_plano_acao": 2949
+ },
+ {
+  "id_acao_relatorio_gestao": 3,
+  "percentual_execucao_fisica_acao_relatorio_gestao_acao": 100.0,
+  "observacoes_justificativas_relatorio_gestao_acao": null,
+  "id_relatorio_gestao": 1,
+  "id_acao_meta_plano_acao": 2950
+ }
+]

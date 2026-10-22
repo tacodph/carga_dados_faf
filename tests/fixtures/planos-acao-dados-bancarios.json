@@ -1,0 +1,51 @@
+[
+ {
+  "id_plano_acao_dado_bancario": 1,
+  "id_agencia_conta": "4200-7182",
+  "codigo_banco_plano_acao_dado_bancario": "001",
+  "nome_banco_plano_acao_dado_bancario": "Banco do Brasil",
+  "numero_agencia_plano_acao_dado_bancario": "4200",
+  "dv_agencia_plano_acao_dado_bancario": "5",
+  "numero_conta_plano_acao_dado_bancario": "7182",
+  "dv_conta_plano_acao_dado_bancario": "X",
+  "situacao_conta_plano_acao_dado_bancario": "Conta Ativa",
+  "data_abertura_conta_plano_acao_dado_bancario": "2020-02-05",
+  "nome_programa_agil_conta_plano_acao_dado_bancario": "FNSP-FAF-INVESTIMENTO",
+  "saldo_final_dado_bancario": {
+   "saldo_final_gestao_financeira": 0.0
+  },
+  "id_plano_acao": 1
+ },
+ {
+  "id_plano_acao_dado_bancario": 2,
+  "id_agencia_conta": "4200-7183",
+  "codigo_banco_plano_acao_dado_bancario": "001",
+  "nome_banco_plano_acao_dado_bancario": "Banco do Brasil",
+  "numero_agencia_plano_acao_dado_bancario": "4200",
+  "dv_agencia_plano_acao_dado_bancario": "5",
+  "numero_conta_plano_acao_dado_bancario": "7183",
+  "dv_conta_plano_acao_dado_bancario": "8",
+  "situacao_conta_plano_acao_dado_bancario": "Conta Ativa",
+  "data_abertura_conta_plano_acao_dado_bancario": "2020-02-05",
+  "nome_programa_agil_conta_plano_acao_dado_bancario": "FNSP-FAF-CUSTEIO",
+  "saldo_final_dado_bancario": {
+   "saldo_final_gestao_financeira": 0.0
+  },
+  "id_plano_acao": 1
+ },
+ {
+  "id_plano_acao_dado_bancario": 9,
+  "id_agencia_conta": "1615-23195",
+  "codigo_banco_plano_acao_dado_bancario": "001",
+  "nome_banco_plano_acao_dado_bancario": "Banco do Brasil",
+  "numero_agencia_plano_acao_dado_bancario": "1615",
+  "dv_agencia_plano_acao_dado_bancario": "2",
+  "numero_conta_plano_acao_dado_bancario": "23195",
+  "dv_conta_plano_acao_dado_bancario": "9",
+  "situacao_conta_plano_acao_dado_bancario": "Conta Ativa",
+  "data_abertura_conta_plano_acao_dado_bancario": "2020-11-05",
+  "nome_programa_agil_conta_plano_acao_dado_bancario": "DEPEN-CUSTEIO-2020",
+  "saldo_final_dado_bancario": null,
+  "id_plano_acao": 5
+ }
+]

@@ -1,0 +1,134 @@
+[
+ {
+  "id_programa": 1,
+  "ano_programa": 2019,
+  "modalidade_programa": "FUNDO_A_FUNDO",
+  "codigo_programa": 905320190001,
+  "nome_programa": "Valorização dos Profissionais de Segurança Pública",
+  "id_unidade_gestora_programa": 200277,
+  "nome_institucional_programa": "Valorização dos Profissionais de Segurança Pública",
+  "permite_transferencia_sem_fundo_programa": false,
+  "objetivo_programa": "I - estimular a padronização da formação, da capacitação e da qualificação dos profissionais de segurança pública, respeitadas as especificidades e as diversidades regionais, em consonância com a Plano Nacional de Segurança Pública e Defesa Social;II - estimular a criação de mecanismos de proteção dos agentes públicos que compõem o sistema nacional de segurança pública e de seus familiares; eIII - estimular e incentivar a elaboração, a execução e o monitoramento de ações nas áreas de valorização profissional, de saúde, de qualidade de vida e de segurança dos servidores que compõem o Sistema Nacional de Segurança Pública.",
+  "descricao_programa": "Incentivo financeiro das ações do Eixo Valorização dos Profissionais de Segurança Pública, no âmbito da Política Nacional de Segurança Pública e Defesa Social e do Sistema Único de Segurança Pública, com os recursos do Fundo Nacional de Segurança Pública, previstos no inciso I do art. 7º da Lei nº 13.756, de 12 de dezembro de 2018.",
+  "situacao_programa": "DISPONIBILIZADO",
+  "valor_global_programa": 49574668.0,
+  "quantidade_parcelas_programa": 1,
+  "id_orgao_superior_programa": 9053,
+  "sigla_orgao_superior_programa": "SENASP",
+  "cnpj_orgao_superior_programa": "00394494000560",
+  "nome_orgao_superior_programa": "Secretaria Nacional de Segurança Pública",
+  "id_fundo_programa": null,
+  "cnpj_fundo_programa": null,
+  "nome_fundo_programa": null,
+  "uf_fundo_programa": null,
+  "municipio_fundo_programa": null,
+  "codigo_ibge_fundo_programa": null,
+  "programa_natureza_despesa": [
+   {
+    "grupo_natureza_despesa_programa": "INVESTIMENTO"
+   },
+   {
+    "grupo_natureza_despesa_programa": "CUSTEIO"
+   }
+  ],
+  "programa_acao_orcamentaria": [
+   {
+    "codigo_acao_orcamentaria_programa": "00R2",
+    "descricao_acao_orcamentaria_programa": "APARELHAMENTO E APRIMORAMENTO DE INSTITUIÇÕES DE SEGURANÇA PÚBLICA"
+   }
+  ],
+  "data_inicio_recebimento_planos_acao_beneficiarios_especificos": "2020-01-17",
+  "data_fim_recebimento_planos_acao_beneficiarios_especificos": "2020-02-29",
+  "data_inicio_recebimento_planos_acao_beneficiarios_emendas": null,
+  "data_fim_recebimento_planos_acao_beneficiarios_emendas": null,
+  "data_inicio_recebimento_planos_acao_beneficiarios_voluntarios": null,
+  "data_fim_recebimento_planos_acao_beneficiarios_voluntarios": null
+ },
+ {
+  "id_programa": 2,
+  "ano_programa": 2020,
+  "modalidade_programa": "FUNDO_A_FUNDO",
+  "codigo_programa": 220820200001,
+  "nome_programa": "Qualificação Social e Profissional - Emenda Parlamentar",
+  "id_unidade_gestora_programa": 380908,
+  "nome_institucional_programa": "Qualificação Social e Profissional",
+  "permite_transferencia_sem_fundo_programa": false,
+  "objetivo_programa": "Aumentar a participação do SINE no total de admissões no mercado de trabalho formal por meio da promoção de ações de qualificação social e profissional em alinhamento com as demandas do setor produtivo apuradas por meio de solicitações diretas na plataforma SuperTec ou previstas em contratos com incentivos de desempenho.",
+  "descricao_programa": "O Programa Brasileiro de Qualificação Social e Profissional - QUALIFICA BRASIL, regido pela Resolução CODEFAT Nº 783/2017, é voltado para a promoção de ações de qualificação e certificação profissional no âmbito do Programa do Seguro-Desemprego, como parte integrada do Sistema Nacional de Emprego – SINE, sendo financiado com recursos do Fundo de Amparo ao Trabalhador – FAT. Seus objetivos são promover a empregabilidade do trabalhador, bem como incrementar a produtividade e a renda do trabalhador, além de contribuir para o desenvolvimento econômico e social. O QUALIFICA BRASIL pode ser implementado em 4 modalidades: Projetos de Qualificação; Qualificação à Distância; Passaporte Qualificação; e Certificação Profissional. O Programa prevê a oferta de cursos de qualificação, podendo ser cursos de Formação Inicial e Continuada ou de aperfeiçoamento profissional, podendo ser executados diretamente pelo MTb ou de forma indireta por meio de convênios com entes federados (estados, DF e municípios) ou descentralização para outros órgãos federais aptos para tal. As demandas por qualificação social e profissional serão identificadas por meio do Mapa de Demandas de Qualificação Social e Profissional (MDQSP), sendo que esse mapeamento norteará a execução de todas as ações do QUALIFICA BRASIL.",
+  "situacao_programa": "DISPONIBILIZADO",
+  "valor_global_programa": 2141960.0,
+  "quantidade_parcelas_programa": 1,
+  "id_orgao_superior_programa": 2208,
+  "sigla_orgao_superior_programa": "SPPE",
+  "cnpj_orgao_superior_programa": null,
+  "nome_orgao_superior_programa": "Secretaria de Políticas Públicas de Emprego",
+  "id_fundo_programa": 49,
+  "cnpj_fundo_programa": "07526983002278",
+  "nome_fundo_programa": "FUNDO DE AMPARO AO TRABALHADOR",
+  "uf_fundo_programa": "DF",
+  "municipio_fundo_programa": "BRASÍLIA",
+  "codigo_ibge_fundo_programa": 5300108,
+  "programa_natureza_despesa": [
+   {
+    "grupo_natureza_despesa_programa": "CUSTEIO"
+   }
+  ],
+  "programa_acao_orcamentaria": [
+   {
+    "codigo_acao_orcamentaria_programa": "20Z1",
+    "descricao_acao_orcamentaria_programa": "Qualificação Social e Profissional"
+   }
+  ],
+  "data_inicio_recebimento_planos_acao_beneficiarios_especificos": null,
+  "data_fim_recebimento_planos_acao_beneficiarios_especificos": null,
+  "data_inicio_recebimento_planos_acao_beneficiarios_emendas": "2020-09-21",
+  "data_fim_recebimento_planos_acao_beneficiarios_emendas": "2020-12-30",
+  "data_inicio_recebimento_planos_acao_beneficiarios_voluntarios": null,
+  "data_fim_recebimento_planos_acao_beneficiarios_voluntarios": null
+ },
+ {
+  "id_programa": 3,
+  "ano_programa": 2019,
+  "modalidade_programa": "FUNDO_A_FUNDO",
+  "codigo_programa": 905320190002,
+  "nome_programa": "Enfrentamento à Criminalidade Violenta",
+  "id_unidade_gestora_programa": 200277,
+  "nome_institucional_programa": "Enfrentamento à Criminalidade Violenta",
+  "permite_transferencia_sem_fundo_programa": false,
+  "objetivo_programa": "I - estimular a padronização dos cursos de formação e a qualificação dos profissionais de segurança pública, respeitadas as especificidades e as diversidades regionais, em consonância com o Plano Nacional de Segurança Pública e Defesa Social;II - apoiar as ações de manutenção da ordem pública e da incolumidade das pessoas, do patrimônio, do meio ambiente e de bens e direitos;III - estimular e apoiar a realização de ações de prevenção à violência e à criminalidade, com prioridade àquelas relacionadas à letalidade da população jovem negra, das mulheres e de outros grupos vulneráveis;IV - incentivar medidas para a modernização de equipamentos, da investigação e da perícia e para a padronização de tecnologia dos órgãos e das instituições de segurança pública;V - promover a interoperabilidade dos sistemas de segurança pública;VI - estabelecer mecanismos de monitoramento e de avaliação das ações implementadas;VII - integrar e compartilhar as informações de segurança pública, prisionais e sobre drogas;VIII - estimular a concessão de medidas protetivas em favor de pessoas em situação de vulnerabilidade;IX - fortalecer os mecanismos de investigação de crimes hediondos e de homicídios;X - fomentar ações permanentes para o combate ao crime organizado e à corrupção; eXI - promover uma relação colaborativa entre os órgãos de segurança pública e os integrantes do sistema judiciário para a construção das estratégias e o desenvolvimento das ações necessárias ao alcance das metas estabelecidas.",
+  "descricao_programa": "Incentivo financeiro das ações do Eixo Enfrentamento à Criminalidade Violenta, no âmbito da Política Nacional de Segurança Pública e Defesa Social e do Sistema Único de Segurança Pública, com os recursos do Fundo Nacional de Segurança Pública, previstos no inciso I do art. 7º da Lei nº 13.756, de 12 de dezembro de 2018.",
+  "situacao_programa": "DISPONIBILIZADO",
+  "valor_global_programa": 198298674.0,
+  "quantidade_parcelas_programa": 1,
+  "id_orgao_superior_programa": 9053,
+  "sigla_orgao_superior_programa": "SENASP",
+  "cnpj_orgao_superior_programa": "00394494000560",
+  "nome_orgao_superior_programa": "Secretaria Nacional de Segurança Pública",
+  "id_fundo_programa": null,
+  "cnpj_fundo_programa": null,
+  "nome_fundo_programa": null,
+  "uf_fundo_programa": null,
+  "municipio_fundo_programa": null,
+  "codigo_ibge_fundo_programa": null,
+  "programa_natureza_despesa": [
+   {
+    "grupo_natureza_despesa_programa": "INVESTIMENTO"
+   },
+   {
+    "grupo_natureza_despesa_programa": "CUSTEIO"
+   }
+  ],
+  "programa_acao_orcamentaria": [
+   {
+    "codigo_acao_orcamentaria_programa": "00R2",
+    "descricao_acao_orcamentaria_programa": "APARELHAMENTO E APRIMORAMENTO DE INSTITUIÇÕES DE SEGURANÇA PÚBLICA"
+   }
+  ],
+  "data_inicio_recebimento_planos_acao_beneficiarios_especificos": "2020-04-03",
+  "data_fim_recebimento_planos_acao_beneficiarios_especificos": "2020-05-29",
+  "data_inicio_recebimento_planos_acao_beneficiarios_emendas": null,
+  "data_fim_recebimento_planos_acao_beneficiarios_emendas": null,
+  "data_inicio_recebimento_planos_acao_beneficiarios_voluntarios": null,
+  "data_fim_recebimento_planos_acao_beneficiarios_voluntarios": null
+ }
+]

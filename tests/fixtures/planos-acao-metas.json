@@ -1,0 +1,32 @@
+[
+ {
+  "id_meta_plano_acao": 2,
+  "numero_meta_plano_acao": "M1",
+  "nome_meta_plano_acao": "Alcançar 30% do efetivo da Secretaria de Estado de Segurança Pública do Distrito Federal, por meio de capacitações",
+  "descricao_meta_plano_acao": "Alcançar 30% (trinta por cento) do efetivo da Secretaria de Estado de Segurança Pública do Distrito Federal, por meio de capacitações em temáticas relacionadas à valorização profissional, realizadas até dezembro de 2020",
+  "valor_meta_plano_acao": 1516984.0,
+  "versao_meta_plano_acao": 5,
+  "sequencial_meta_plano_acao": 1,
+  "id_plano_acao": 1
+ },
+ {
+  "id_meta_plano_acao": 4,
+  "numero_meta_plano_acao": "M1",
+  "nome_meta_plano_acao": "Modernização e aparelhamento de estabelecimentos penais",
+  "descricao_meta_plano_acao": "Modernização e aparelhamento de estabelecimentos penais",
+  "valor_meta_plano_acao": 2235340.16,
+  "versao_meta_plano_acao": 2,
+  "sequencial_meta_plano_acao": 1,
+  "id_plano_acao": 5
+ },
+ {
+  "id_meta_plano_acao": 6,
+  "numero_meta_plano_acao": "M1",
+  "nome_meta_plano_acao": "Modernização e aparelhamento de estabelecimentos penais",
+  "descricao_meta_plano_acao": "No que tange a modernização e aparelhamento de estabelecimentos penais, consta no referido Plano de Aplicação o aparelhamento da Seção de Acompanhamento e Controle Operacional (SEACOP), criada recentemente, através da Portaria nº. 133.2020-DGAP para o controle e conhecimento diário de efetivo nas unidades prisionais, guaritas e chamadas únicas e aquisição de armamento que tem como objetivo equipar a Diretoria-Geral de Administração Penitenciária com armamento adequado, propiciando segurança e eficiência na execução das atividades penitenciárias, tendo em vista ser a Espingarda Cal. 12 de repetição o armamento principal em nossas atividades devido a sua capacidade de utilização com variados tipos de munições como letais e não letais, e ainda materiais químicos.",
+  "valor_meta_plano_acao": 1221865.87,
+  "versao_meta_plano_acao": 7,
+  "sequencial_meta_plano_acao": 1,
+  "id_plano_acao": 4
+ }
+]

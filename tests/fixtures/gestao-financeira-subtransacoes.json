@@ -1,0 +1,50 @@
+[
+ {
+  "id_subtransacao_gestao_financeira": "1051666-1",
+  "estado_subtransacao_gestao_financeira": 6,
+  "situacao_pagamento_subtransacao_gestao_financeira": 6,
+  "descricao_situacao_pagamento_subtransacao_gestao_financeira": "Cancelado",
+  "data_pagamento_subtransacao_gestao_financeira": "2023-09-14",
+  "tipo_pessoa_beneficiario_subtransacao_gestao_financeira": 2,
+  "descricao_tp_pessoa_beneficiario_subtransacao_gestao_financeira": "CNPJ",
+  "doc_beneficiario_subtransacao_gestao_financeira_mask": "00333978000175",
+  "nome_beneficiario_subtransacao_gestao_financeira": "NOME FICTICIO",
+  "descricao_subtransacao_gestao_financeira": "Cancelado",
+  "valor_subtransacao_gestao_financeira": 126805.77,
+  "codigo_categoria_despesa_subtransacao_gestao_financeira": 0,
+  "categorias_despesa_subtransacao": null,
+  "id_lancamento_gestao_financeira": 1051666
+ },
+ {
+  "id_subtransacao_gestao_financeira": "1051666-2",
+  "estado_subtransacao_gestao_financeira": 6,
+  "situacao_pagamento_subtransacao_gestao_financeira": 6,
+  "descricao_situacao_pagamento_subtransacao_gestao_financeira": "Cancelado",
+  "data_pagamento_subtransacao_gestao_financeira": "2023-09-14",
+  "tipo_pessoa_beneficiario_subtransacao_gestao_financeira": 2,
+  "descricao_tp_pessoa_beneficiario_subtransacao_gestao_financeira": "CNPJ",
+  "doc_beneficiario_subtransacao_gestao_financeira_mask": "00333978000175",
+  "nome_beneficiario_subtransacao_gestao_financeira": "NOME FICTICIO",
+  "descricao_subtransacao_gestao_financeira": "Cancelado",
+  "valor_subtransacao_gestao_financeira": 166663.59,
+  "codigo_categoria_despesa_subtransacao_gestao_financeira": 0,
+  "categorias_despesa_subtransacao": null,
+  "id_lancamento_gestao_financeira": 1051666
+ },
+ {
+  "id_subtransacao_gestao_financeira": "1089417-1",
+  "estado_subtransacao_gestao_financeira": 3,
+  "situacao_pagamento_subtransacao_gestao_financeira": 3,
+  "descricao_situacao_pagamento_subtransacao_gestao_financeira": "Pago",
+  "data_pagamento_subtransacao_gestao_financeira": "2023-09-27",
+  "tipo_pessoa_beneficiario_subtransacao_gestao_financeira": 2,
+  "descricao_tp_pessoa_beneficiario_subtransacao_gestao_financeira": "CNPJ",
+  "doc_beneficiario_subtransacao_gestao_financeira_mask": "37930861000189",
+  "nome_beneficiario_subtransacao_gestao_financeira": "NOME FICTICIO",
+  "descricao_subtransacao_gestao_financeira": "Pago",
+  "valor_subtransacao_gestao_financeira": 20119.36,
+  "codigo_categoria_despesa_subtransacao_gestao_financeira": 0,
+  "categorias_despesa_subtransacao": null,
+  "id_lancamento_gestao_financeira": 1089417
+ }
+]

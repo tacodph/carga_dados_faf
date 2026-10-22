@@ -1,0 +1,26 @@
+[
+ {
+  "id_destinacao_recursos_plano_acao": 3,
+  "codigo_natureza_despesa_destinacao_recursos_plano_acao": 449052,
+  "descricao_natureza_despesa_destinacao_recursos_plano_acao": "EQUIPAMENTOS E MATERIAL PERMANENTE",
+  "tipo_despesa_destinacao_recursos_plano_acao": "INVESTIMENTO",
+  "valor_destinacao_recursos_plano_acao": 2235340.16,
+  "id_plano_acao": 5
+ },
+ {
+  "id_destinacao_recursos_plano_acao": 5,
+  "codigo_natureza_despesa_destinacao_recursos_plano_acao": 443000,
+  "descricao_natureza_despesa_destinacao_recursos_plano_acao": "TRANSFERENCIAS A ESTADOS E DISTRITO FEDERAL",
+  "tipo_despesa_destinacao_recursos_plano_acao": "INVESTIMENTO",
+  "valor_destinacao_recursos_plano_acao": 1102394.54,
+  "id_plano_acao": 7
+ },
+ {
+  "id_destinacao_recursos_plano_acao": 6,
+  "codigo_natureza_despesa_destinacao_recursos_plano_acao": 313000,
+  "descricao_natureza_despesa_destinacao_recursos_plano_acao": "TRANSF. A ESTADOS E AO DISTRITO FEDERAL",
+  "tipo_despesa_destinacao_recursos_plano_acao": "CUSTEIO",
+  "valor_destinacao_recursos_plano_acao": 339407.19,
+  "id_plano_acao": 7
+ }
+]
