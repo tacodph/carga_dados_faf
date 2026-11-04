@@ -66,6 +66,7 @@ faf-carga executar           # primeira carga completa (~20-30 min)
 | `faf-carga executar [--forcar] [--endpoints programas,planos-acao]` | executa a carga |
 | `faf-carga status [--ultimas N]` | últimas execuções e endpoints da mais recente |
 | `faf-carga verificar` | compara `total_items` da API com `count(*)` de cada tabela, sem carregar |
+| `faf-carga parlamentares` | liga as emendas de `/programas-beneficiarios` ao parlamentar (roda sozinho no fim de `executar`) |
 | `faf-carga endpoints` | lista endpoint → tabela |
 | `faf-carga ddl` | aplica `sql/*.sql` |
 | `faf-carga config` | mostra a configuração |
@@ -107,8 +108,46 @@ auto-ignora se a data do dia já foi carregada). A senha do Windows é pedida nu
   registro some da API; **consultas devem filtrar `dt_remocao_origem is null`** para ver só os ativos).
 - **23 de staging** no esquema `stg_transferencias_fundo_fundo` (mesmos nomes, não logadas) e **controle**: `controle_execucao`, `controle_execucao_endpoint` e, no
   padrão corporativo, `controle_carga` (por endpoint) e `controle_carga_dia` (por execução).
+- **View** `vw_emendas_faf_parlamentar`: beneficiários de emenda ativos com o parlamentar normalizado (ver abaixo).
 - Sem `foreign key` (dados abertos podem ter órfãos); há índices nas colunas de relacionamento.
   Consultas de conferência: `sql/validacao.sql`.
+
+## Emendas e parlamentar
+
+Mesmo padrão das emendas do Transferegov (`carga_arquivos_transferegov/docs/EMENDAS_PARLAMENTAR.md`): o
+parlamentar é identificado pelo **código do autor**, nunca pelo nome. Código: `src/faf_carga/parlamentar.py`;
+DDL: `sql/008_emendas_parlamentar.sql` (migration do transferepro
+`base_transferencias_fundo_fundo/2026_10_23_110001_create_vw_emendas_faf_parlamentar.php`).
+
+- `numero_emenda_beneficiario_programa` tem 12 dígitos: **ano (4) + autor (4) + sequencial (4)**. Ex.:
+  `202013310016` → ano 2020, autor `1331`, `nr_emenda` `13310016` (formato do siconv). Com 8 dígitos vale como
+  `nr_emenda` sem ano; outros formatos ficam sem autor (contados no log).
+- O parlamentar fica em `transfere_pro_transferegov` (`tab_autores_emendas`, `tab_parlamentares`,
+  `tab_parlamentares_alias`), mantidas pela carga de emendas. Depois de cada execução que carregue
+  `/programas-beneficiarios`, esta carga grava os códigos que lá ainda não existem (`origem = 'faf'`), liga cada
+  código a um parlamentar pelo nome normalizado, grava as grafias daqui como alias e marca
+  `tab_autores_emendas.fl_revisar` quando uma grafia já pertence a outro parlamentar. O nome do siconv nunca é
+  sobrescrito. Mesma trava (`pg_advisory_xact_lock(7465100)`) das outras cargas que gravam parlamentar; uma falha
+  aqui é logada e não muda o status da carga; sem as tabelas de parlamentar o passo é pulado com aviso.
+- `vw_emendas_faf_parlamentar`: uma linha por beneficiário ativo com número de emenda (`ano_emenda`, `cod_autor`,
+  `nr_emenda`, `id_parlamentar`, `nome_parlamentar`, `nome_parlamentar_origem`, `fl_revisar`, CNPJ, valor, ente).
+  Junte por `id_parlamentar` ou `(ano_emenda, nr_emenda)`.
+
+Conferência (só leitura):
+
+```sql
+-- o código do autor do FaF bate com o do siconv? (nomes lado a lado)
+select v.cod_autor, a.origem, a.nome_parlamentar as nome_siconv,
+       min(v.nome_parlamentar_origem) as nome_faf, count(*) as beneficiarios
+from base_transferencias_fundo_fundo.vw_emendas_faf_parlamentar v
+join transfere_pro_transferegov.tab_autores_emendas a on a.cod_autor = v.cod_autor
+group by 1, 2, 3 order by a.origem, beneficiarios desc;
+
+-- formatos de número de emenda e vínculos
+select length(regexp_replace(numero_emenda, '\D', '', 'g')) as digitos, count(*) as total,
+       count(id_parlamentar) as com_parlamentar, count(*) filter (where fl_revisar) as revisar
+from base_transferencias_fundo_fundo.vw_emendas_faf_parlamentar group by 1 order by 1;
+```
 
 ## Desenvolvimento
 
@@ -120,4 +159,5 @@ python scripts/gerar_ddl.py && python scripts/gerar_catalogo.py && python script
 
 Se a API mudar (campo novo), `tests/test_transformar_endpoints.py` falha; veja o RUNBOOK.
 #   c a r g a _ d a d o s _ f a f  
+ #   t r a n s f e r e n c i a s _ f u n d o _ a _ f u n d o  
  
